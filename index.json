@@ -739,6 +739,15 @@
 			"ext": "./drpy_js/低端.js"
 		},
 		{
+			"key": "低端影视",
+			"name": "低端｜影视",
+			"type": 3,
+			"api": "csp_Ddys",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		},
+		{
 			"key": "hipy_js_嘀哩嘀哩",
 			"name": "嘀哩嘀哩(drpy_t3)",
 			"type": 3,
@@ -911,6 +920,15 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/番茄小说[书].js"
+		},
+		{
+			"key": "饭团影视",
+			"name": "饭团｜影视",
+			"type": 3,
+			"api": "csp_Fantuan",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
 		},
 		{
 			"key": "hipy_js_飞鱼影视",
@@ -1290,6 +1308,15 @@
 			}
 		},
 		{
+			"key": "来看影视",
+			"name": "来看｜影视",
+			"type": 3,
+			"api": "csp_Lkdy",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		},
+		{
 			"key": "hipy_js_来看点播[自动]",
 			"name": "来看点播[自动](drpy_t3)",
 			"type": 3,
@@ -1308,6 +1335,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 1,
 			"ext": {
 				"danmu": true,
 				"site": "aHR0cDovL3YubGt1eXMuY24="
@@ -1493,6 +1521,16 @@
 			}
 		},
 		{
+			"key": "耐看影视",
+			"name": "耐看｜影视",
+			"type": 3,
+			"api": "csp_WebNK",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
+		},
+		{
 			"key": "hipy_js_农民影视[优]",
 			"name": "农民影视[优](drpy_t3)",
 			"type": 3,
@@ -1606,6 +1644,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 1,
 			"ext": {
 				"danmu": true,
 				"site": "aHR0cDovL3YucmJvdHYuY24="
@@ -1774,6 +1813,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 1,
 			"ext": {
 				"danmu": true,
 				"site": "aHR0cDovL3R0LnlzZHFqcy5jbg=="
@@ -2288,6 +2328,15 @@
 			"ext": "./drpy_js/在线之家.js"
 		},
 		{
+			"key": "真心影视",
+			"name": "真心｜影视",
+			"type": 3,
+			"api": "csp_WebGZ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		},
+		{
 			"key": "夸克至臻弹幕",
 			"name": "至臻｜4K弹幕",
 			"type": 3,
@@ -2324,19 +2373,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/种子音乐[听].js"
-		},
-		{
-			"key": "AList",
-			"name": "AList｜合集",
-			"type": 3,
-			"api": "csp_AList",
-			"searchable": 1,
-			"filterable": 1,
-			"changeable": 0,
-			"style": {
-				"type": "list"
-			},
-			"ext": "./json/alist.json"
 		},
 		{
 			"key": "版本信息",
