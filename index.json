@@ -336,21 +336,13 @@
 			"ext": "./drpy_js/926tv[球].js"
 		},
 		{
-			"key": "阿里合集",
-			"name": "阿里｜合集",
+			"key": "1905",
+			"name": "1905｜影视",
 			"type": 3,
-			"api": "csp_AliShare",
+			"api": "csp_Web1905",
 			"searchable": 1,
-			"changeable": 0,
-			"filterable": 0,
-			"indexs": 0,
-			"ext": {
-				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-				"share": "./js/alishare.txt"
-			},
-			"style": {
-				"type": "list"
-			}
+			"quickSearch": 0,
+			"filterable": 0
 		},
 		{
 			"key": "hipy_js_啊哈DJ[听]",
@@ -635,6 +627,14 @@
 			"ext": "./drpy_js/畅梦影视[优].js"
 		},
 		{
+			"key": "小米尘落",
+			"name": "尘落｜APP",
+			"type": 3,
+			"api": "csp_Wetv",
+			"searchable": 1,
+			"quickSearch": 1
+		},
+		{
 			"key": "hipy_js_臭蛋蛋",
 			"name": "臭蛋蛋(drpy_t3)",
 			"type": 3,
@@ -701,7 +701,7 @@
 				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
 				"uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-				"site": "http://149.88.87.18:6688",
+				"site": "https://dawo.banye.tech:7086",
 				"danmu": true
 			}
 		},
@@ -768,6 +768,14 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/第一韩漫[画].js"
+		},
+		{
+			"key": "小米电影",
+			"name": "电影｜APP",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"api": "csp_MovieApp"
 		},
 		{
 			"key": "hipy_js_电影狗",
@@ -858,16 +866,6 @@
 			"ext": "./drpy_js/豆瓣[官].js"
 		},
 		{
-			"key": "短剧合集",
-			"name": "短剧｜合集",
-			"type": 3,
-			"api": "./js/quark.min.js",
-			"ext": "./js/短剧合集.js",
-			"style": {
-				"type": "list"
-			}
-		},
-		{
 			"key": "夸克多多弹幕",
 			"name": "多多｜4K弹幕",
 			"type": 3,
@@ -895,6 +893,14 @@
 			"ext": "./drpy_js/多多影音.js"
 		},
 		{
+			"key": "二三",
+			"name": "二三｜App",
+			"type": 3,
+			"api": "csp_Muou",
+			"playerType": 2,
+			"ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
+		},
+		{
 			"key": "夸克二小弹幕",
 			"name": "二小｜4K弹幕",
 			"type": 3,
@@ -906,7 +912,7 @@
 				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
 				"uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-				"site": "http://2xiaopan.fun",
+				"site": "https://erxiao.banye.tech:7086",
 				"danmu": true
 			}
 		},
@@ -1006,6 +1012,15 @@
 			"ext": "./drpy_js/广播迷FM[听].js"
 		},
 		{
+			"key": "韩小圈",
+			"name": "韩小圈｜APP",
+			"type": 3,
+			"api": "csp_HanXiaoQuan",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		},
+		{
 			"key": "hipy_js_好趣网[播]",
 			"name": "好趣网[播](drpy_t3)",
 			"type": 3,
@@ -1091,6 +1106,30 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/黑木耳资源[资].js"
+		},
+		{
+			"key": "蝴蝶",
+			"name": "蝴蝶｜APP",
+			"type": 3,
+			"api": "csp_Hudie",
+			"playerType": 2,
+			"ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+		},
+		{
+			"key": "夸克虎斑弹幕",
+			"name": "虎斑｜4K弹幕",
+			"type": 3,
+			"api": "csp_Wobg",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"ext": {
+				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+				"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+				"uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+				"site": "https://huban.banye.tech:7086",
+				"danmu": true
+			}
 		},
 		{
 			"key": "hipy_js_虎牙直播[官]",
@@ -1292,6 +1331,17 @@
 			"filterable": 1
 		},
 		{
+			"key": "快看",
+			"name": "快看｜APP",
+			"type": 3,
+			"api": "csp_AppYsV2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": "http://kkwk123.top/api.php/app/"
+		},
+		{
 			"key": "夸克蜡笔弹幕",
 			"name": "蜡笔｜4K弹幕",
 			"type": 3,
@@ -1439,6 +1489,14 @@
 			"ext": "./drpy_js/六月听书[听].js"
 		},
 		{
+			"key": "龙虾",
+			"name": "龙虾｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cDovL3BweC5iangzNjUudG9wfHBpcGl4aWEyMTc1MjIzMjR8cGlwaXhpYTIxNzUyMjMyNHw1MDY="
+		},
+		{
 			"key": "hipy_js_路漫漫[漫]",
 			"name": "路漫漫[漫](drpy_t3)",
 			"type": 3,
@@ -1459,6 +1517,16 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/绿色仓库[密].js"
+		},
+		{
+			"key": "曼波动漫",
+			"name": "曼波｜动漫",
+			"type": 3,
+			"api": "csp_AppGetApp",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvCnF9SwoPCmcOtw5jDj8Orw6ZValLCmMOtw6fDqsOswrRiX8KRwqDDqcKhw6nDpsOpwpnCpcKeYcKnw6fDqcOpwqnClMKgwplew6nDm8OqwpvCplXCpMKZwqDCm8KtwpzDlOWHv+mEm+aPleWQk1zlh6XkvorlkbHCs+W/q+inuei1tOa7gOesicOWwpXCpsKbwrvCmMKje8KVw7LClcK0wpvCsGnClMKTY8KpwqzDncObw5/CmMKTwpFkwq7Cp8KcwqXCnHTClcKjecOvwpXCtMKbwrBpwpTCk2PCqcKsw53Dm8OfwpjCk8KRZMKuwqfCnMO2"
 		},
 		{
 			"key": "hipy_js_漫画走廊[画密飞]",
@@ -1519,6 +1587,22 @@
 				"site": "https://mogg.banye.tech:7086",
 				"danmu": true
 			}
+		},
+		{
+			"key": "木头",
+			"name": "木头｜APP",
+			"type": 3,
+			"api": "csp_Shark",
+			"playerType": 1,
+			"ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
+		},
+		{
+			"key": "木叶",
+			"name": "木叶｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 2,
+			"ext": "saHR0cDovLzExMy40NS4yNDMuMjMzL211eWUudHh0fFJ1TjlMUnZ3VFJncFFucEt8UnVOOUxSdndUUmdwUW5wS3w1NDc="
 		},
 		{
 			"key": "耐看影视",
@@ -1610,6 +1694,24 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/七新电影网.js"
+		},
+		{
+			"key": "洽洽影视",
+			"name": "洽洽｜APP",
+			"type": 3,
+			"api": "csp_AppGZ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "KhY021WelCEl+6MsvwnzaPussky6FQJcpCjT9V7/D61ft9vQAhNEPOYSMZVJSODd/JOOSOwUzim+9qfvgpNz7SvUPpAkXAweyrp76WY8s5EBwW7DBMY="
+		},
+		{
+			"key": "巧技",
+			"name": "巧技｜APP",
+			"type": 3,
+			"api": "csp_qiao2",
+			"playerType": 2,
+			"ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"
 		},
 		{
 			"key": "hipy_js_清风DJ[听]",
@@ -1729,6 +1831,14 @@
 			"ext": "./drpy_js/神马影院[自动].js"
 		},
 		{
+			"key": "时常",
+			"name": "时常｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMnwxMzQ="
+		},
+		{
 			"key": "hipy_js_时光影院",
 			"name": "时光影院(drpy_t3)",
 			"type": 3,
@@ -1777,7 +1887,7 @@
 				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
 				"uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-				"site": "https://woss.fenwe.eu.org",
+				"site": "https://woss.banye.tech:7086",
 				"danmu": true
 			}
 		},
@@ -1993,6 +2103,20 @@
 			"ext": "./drpy_js/夕云影视.js"
 		},
 		{
+			"key": "西瓜视频",
+			"name": "西瓜｜视频",
+			"type": 3,
+			"api": "csp_AmuXiguaV2",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"changeable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			}
+		},
+		{
 			"key": "hipy_js_西瓜影院",
 			"name": "西瓜影院(drpy_t3)",
 			"type": 3,
@@ -2002,6 +2126,16 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/西瓜影院.js"
+		},
+		{
+			"key": "稀饭动漫",
+			"name": "稀饭｜动漫",
+			"type": 3,
+			"api": "csp_AppGetApp",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvDosKnwqTCoMKjwrPCosKpw7HDoMKUwqDCoF3CqsKmwqrCrsKtbGBgZsKuwqHDncOow61hwpHCoF3DoMOow5vDp8Ohwq3CmMKfwqXCp8Ogw7PDqsOdwp/Cn8KlwpTCp8OWw6nDpsKpwprClcKkwpHDqcOjwqjDrcOywqdSXFLDgsOhw6PDrcORwqLCosKUUsKzwpXCnMKlwpzCp8KZwqBSwrPClcOV5Ye+6YWi5o+Y5ZCTXOWGnOS+kOWRqsK05b+q6KmA6LW35ruA56yJwo3Cm8KfwpzCusOfwqZ7wpXCqcKbwq3CnMKqw7PCjWLCg8Kgw6fCrMOlw6vDqMKtwoZ7wp/CvMKVwqbCm8K7wpjCo3nCpsKbwq3CnMKqw7PCjWLCg8Kgw6fCrMOlw6vDqMKtwoZ7wp/CvMKVwqbCm8ONwpzCpMKVwoXDq8OfwpzCs8KcVcKt"
 		},
 		{
 			"key": "hipy_js_喜马拉雅[听]",
@@ -2029,6 +2163,14 @@
 				"site": "https://xiafan.banye.tech:7086",
 				"danmu": true
 			}
+		},
+		{
+			"key": "现代",
+			"name": "现代｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "caHR0cHM6Ly94ZHlzLnZpcC9nZXRhcHAudHh0fHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYnwxMTQ="
 		},
 		{
 			"key": "hipy_js_小白菜电影",
@@ -2113,6 +2255,14 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/星辰CT.js"
+		},
+		{
+			"key": "星河",
+			"name": "星河｜APP",
+			"type": 3,
+			"api": "csp_Muou",
+			"playerType": 2,
+			"ext": "caHR0cDovL2EubXVxaXhoLnRvcDo1NjIzfOW5leWQr+aYn+ays3w0LjEuOA=="
 		},
 		{
 			"key": "hipy_js_星空影院",
@@ -2201,6 +2351,14 @@
 			"ext": "./drpy_js/一曲肝肠断.js"
 		},
 		{
+			"key": "移动",
+			"name": "移动｜APP",
+			"type": 3,
+			"api": "csp_YD",
+			"searchable": 1,
+			"quickSearch": 1
+		},
+		{
 			"key": "hipy_js_易搜[搜]",
 			"name": "易搜[搜](drpy_t3)",
 			"type": 3,
@@ -2259,6 +2417,40 @@
 			"ext": "./drpy_js/影搜[搜].js"
 		},
 		{
+			"key": "永夜",
+			"name": "永夜｜App",
+			"type": 3,
+			"api": "csp_Muou",
+			"playerType": 2,
+			"ext": "caHR0cDovLzExMC40MC42NC4yMjU6ODk0NXxHOGt6QjF2WHdRcDlaN21GfEc4a3pCMXZYd1FwOVo3bUZ8MTAw"
+		},
+		{
+			"key": "优质",
+			"name": "优质｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cHM6Ly9keXl6dHZhcHBhcGlnb29kZ3guNjguZ3k6MTI2ODkvY2l3azI4dnUzOGlvOC9hcGl1cmwudHh0fGR5eXp0dmFwaWFwcHl5ZHN8ZHl5enR2YXBpYXBweXlkc3wxMDA="
+		},
+		{
+			"key": "悠悠影视",
+			"name": "悠悠｜APP",
+			"type": 3,
+			"api": "csp_AppGetApp",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCoVpcUFfDgsOhw6PDrcORwqLCosKUV8KzwpPCocOiw6jCnMKkwoZhwqrCrMKhwqXCmlrCpMKZwqDCoMKtwprCoMOV5Ya46YSY5o+V5ZCTwqXlh5/kvpHlkbDCtOW+pOintui1tOa7gOetksOQwqHCpcKaWnHClcKjw4TDmMOzwqDCtFNXdMKow7DCvMOtw63DrMKXwofCksKJw6nDlcOmw7DDqFpcUFfCusOYw63DgsOwWmpQV8K9w6vDscOCw63Cp8KiwpTCh8Obw4zDqsObw6bCqsKeV1zCmcKaw43DosOuwpjChcKiwpzCoMKtwprCoMOiwqfCpMKgasKowqLCq8KuwrBhYmJlwqfCpsKqwqfCsGhqZWXCr8KpwqnDmsOqwpxewqDCmMOpwprCpsKZwqHCl8KVwpPCosOyw6PDrsOEw5/CrFdqUMKgw6zDm8Oow7HClMKewpdgwqrCpcKwwqDDtw=="
+		},
+		{
+			"key": "油条",
+			"name": "油条｜APP",
+			"type": 3,
+			"api": "csp_Muou",
+			"playerType": 2,
+			"ext": "caHR0cDovL2FwcC53dWlxLmNufOS8mOS8mOWFlHw0LjEuOA=="
+		},
+		{
 			"key": "hipy_js_有声绘本网[听]",
 			"name": "有声绘本网[听](drpy_t3)",
 			"type": 3,
@@ -2290,6 +2482,22 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/有声小说吧[听].js"
+		},
+		{
+			"key": "雨滴",
+			"name": "雨滴｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
+		},
+		{
+			"key": "玉米",
+			"name": "玉米｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg=="
 		},
 		{
 			"key": "hipy_js_云电影网",
@@ -2326,6 +2534,16 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/在线之家.js"
+		},
+		{
+			"key": "站长影视",
+			"name": "站长｜APP",
+			"type": 3,
+			"api": "csp_AppGetApp",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvCnF9SwoPCmcOtw5jDj8Orw6ZValLCmMOtw6fDqsOswrRiX8KdacOcw57CrMKxw6DCqmbCnmPDpsKow6XCsMKywpRhYMKUwqfDl8Ozw7LDtGVewpPCn8Omwq3Cr8KvwrJsX8KRwqDDosKhw6rDocOqVVxSecOnw5zDrsOQw6nCpcKUUmrCm8KVwqbCm8OuwpzCoFJqwpvDjuWHv+mFoeaQn+WQllzlhpzkvYflkbDCreW/q+iov+i2vua7g+esicKNUsKlwpXCu8Oew61+wpXCqVLCs8KVw57DssOzwq3CpMKmwpHDqcOcw5vDqcOqwqzCqcKUwqPCm8KfwpzCusOfwqZ5wqZSwrPClcOew7LDs8KtwqTCpsKRw6nDnMObw6nDqsKswqnClMKjwpvDsA=="
 		},
 		{
 			"key": "真心影视",
@@ -2451,6 +2669,16 @@
 			"ext": "./drpy_js/cally66影视.js"
 		},
 		{
+			"key": "DFun动漫",
+			"name": "DFun｜动漫",
+			"type": 3,
+			"api": "csp_AppGetApp",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvDosKnwqTCoMKjwrPCosKpw6PDsmFlZsKlw7HDnMKow5zDqcKgX8Kpwp3Cp8Onw7LDrcKcX1LCg8KZw63DmMOPw6vDplVqUlLCpcKVw67DosOqVWpSwovlh77phZvmkJ/lkZzCpuWGn+S9h+WQp2rlv6roqLnotr7mvInnrZPCkFJcUsK6w5jDrcOEw5/CrFJqUsOsw5TCr8Odwq7CpmXCkWbCrcOXwq/DqsOxaWFSXMKbwrTDn8Osw4PCqVJqUsOsw5TCr8Odwq7CpmXCkWbCrcOXwq/DqsOxaWFSwq0="
+		},
+		{
 			"key": "Emby",
 			"name": "Emby｜4K",
 			"type": 3,
@@ -2480,6 +2708,16 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/HDmoli.js"
+		},
+		{
+			"key": "HG影视",
+			"name": "HG影视｜APP",
+			"type": 3,
+			"api": "csp_AppYsV2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "https://cs.hgyx.vip/api2/api.php/app/"
 		},
 		{
 			"key": "hipy_js_i275听书[听]",
