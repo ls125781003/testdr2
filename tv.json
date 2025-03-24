@@ -739,15 +739,6 @@
 			"ext": "./drpy_js/低端.js"
 		},
 		{
-			"key": "低端影视",
-			"name": "低端｜影视",
-			"type": 3,
-			"api": "csp_Ddys",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "hipy_js_嘀哩嘀哩",
 			"name": "嘀哩嘀哩(drpy_t3)",
 			"type": 3,
@@ -928,15 +919,6 @@
 			"ext": "./drpy_js/番茄小说[书].js"
 		},
 		{
-			"key": "饭团影视",
-			"name": "饭团｜影视",
-			"type": 3,
-			"api": "csp_Fantuan",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "hipy_js_飞鱼影视",
 			"name": "飞鱼影视(drpy_t3)",
 			"type": 3,
@@ -999,6 +981,14 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/冠建影视.js"
+		},
+		{
+			"key": "光速",
+			"name": "光速｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cDovLzU5LjE1My4xNjcuMTM3Ojg4OTl8NGQ4M2I4N2M0YzVlYTExMXw0ZDgzYjg3YzRjNWVhMTExfDQ2Mg=="
 		},
 		{
 			"key": "hipy_js_广播迷FM[听]",
@@ -1358,15 +1348,6 @@
 			}
 		},
 		{
-			"key": "来看影视",
-			"name": "来看｜影视",
-			"type": 3,
-			"api": "csp_Lkdy",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "hipy_js_来看点播[自动]",
 			"name": "来看点播[自动](drpy_t3)",
 			"type": 3,
@@ -1426,6 +1407,14 @@
 				"site": "https://www.libvio.cc",
 				"danmu": true
 			}
+		},
+		{
+			"key": "莉莉",
+			"name": "莉莉｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8NDk0ODA4MDgwbGdneXNjb3w0OTQ4MDgwODBsZ2d5c2NvfDY2Ng=="
 		},
 		{
 			"key": "hipy_js_两个BT",
@@ -1519,16 +1508,6 @@
 			"ext": "./drpy_js/绿色仓库[密].js"
 		},
 		{
-			"key": "曼波动漫",
-			"name": "曼波｜动漫",
-			"type": 3,
-			"api": "csp_AppGetApp",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvCnF9SwoPCmcOtw5jDj8Orw6ZValLCmMOtw6fDqsOswrRiX8KRwqDDqcKhw6nDpsOpwpnCpcKeYcKnw6fDqcOpwqnClMKgwplew6nDm8OqwpvCplXCpMKZwqDCm8KtwpzDlOWHv+mEm+aPleWQk1zlh6XkvorlkbHCs+W/q+inuei1tOa7gOesicOWwpXCpsKbwrvCmMKje8KVw7LClcK0wpvCsGnClMKTY8KpwqzDncObw5/CmMKTwpFkwq7Cp8KcwqXCnHTClcKjecOvwpXCtMKbwrBpwpTCk2PCqcKsw53Dm8OfwpjCk8KRZMKuwqfCnMO2"
-		},
-		{
 			"key": "hipy_js_漫画走廊[画密飞]",
 			"name": "漫画走廊[画密飞](drpy_t3)",
 			"type": 3,
@@ -1560,6 +1539,14 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/美剧窝.js"
+		},
+		{
+			"key": "米兔",
+			"name": "米兔｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cHM6Ly93d3cuempjLmFwcHxhYjRlOWE0MjE2NzVmMTRifGFiNGU5YTQyMTY3NWYxNGJ8NDQy"
 		},
 		{
 			"key": "hipy_js_魔方影视",
@@ -1603,16 +1590,6 @@
 			"api": "csp_Xdai",
 			"playerType": 2,
 			"ext": "saHR0cDovLzExMy40NS4yNDMuMjMzL211eWUudHh0fFJ1TjlMUnZ3VFJncFFucEt8UnVOOUxSdndUUmdwUW5wS3w1NDc="
-		},
-		{
-			"key": "耐看影视",
-			"name": "耐看｜影视",
-			"type": 3,
-			"api": "csp_WebNK",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
 		},
 		{
 			"key": "hipy_js_农民影视[优]",
@@ -1694,6 +1671,14 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/七新电影网.js"
+		},
+		{
+			"key": "起点",
+			"name": "起点｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cDovL2NhaWppLm8wYS5jbnw3MGZkNjFkOTkxZjQzMjU3fDcwZmQ2MWQ5OTFmNDMyNTd8MTAw"
 		},
 		{
 			"key": "洽洽影视",
@@ -2128,16 +2113,6 @@
 			"ext": "./drpy_js/西瓜影院.js"
 		},
 		{
-			"key": "稀饭动漫",
-			"name": "稀饭｜动漫",
-			"type": 3,
-			"api": "csp_AppGetApp",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvDosKnwqTCoMKjwrPCosKpw7HDoMKUwqDCoF3CqsKmwqrCrsKtbGBgZsKuwqHDncOow61hwpHCoF3DoMOow5vDp8Ohwq3CmMKfwqXCp8Ogw7PDqsOdwp/Cn8KlwpTCp8OWw6nDpsKpwprClcKkwpHDqcOjwqjDrcOywqdSXFLDgsOhw6PDrcORwqLCosKUUsKzwpXCnMKlwpzCp8KZwqBSwrPClcOV5Ye+6YWi5o+Y5ZCTXOWGnOS+kOWRqsK05b+q6KmA6LW35ruA56yJwo3Cm8KfwpzCusOfwqZ7wpXCqcKbwq3CnMKqw7PCjWLCg8Kgw6fCrMOlw6vDqMKtwoZ7wp/CvMKVwqbCm8K7wpjCo3nCpsKbwq3CnMKqw7PCjWLCg8Kgw6fCrMOlw6vDqMKtwoZ7wp/CvMKVwqbCm8ONwpzCpMKVwoXDq8OfwpzCs8KcVcKt"
-		},
-		{
 			"key": "hipy_js_喜马拉雅[听]",
 			"name": "喜马拉雅[听](drpy_t3)",
 			"type": 3,
@@ -2425,6 +2400,14 @@
 			"ext": "caHR0cDovLzExMC40MC42NC4yMjU6ODk0NXxHOGt6QjF2WHdRcDlaN21GfEc4a3pCMXZYd1FwOVo3bUZ8MTAw"
 		},
 		{
+			"key": "优秀",
+			"name": "优秀｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cDovL2FpLnhpYW95dW4uaW5rfEtMckZxU2ptYzRPSWo3NkJ8S0xyRnFTam1jNE9Jajc2QnwzMDA="
+		},
+		{
 			"key": "优质",
 			"name": "优质｜APP",
 			"type": 3,
@@ -2546,15 +2529,6 @@
 			"ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvCnF9SwoPCmcOtw5jDj8Orw6ZValLCmMOtw6fDqsOswrRiX8KdacOcw57CrMKxw6DCqmbCnmPDpsKow6XCsMKywpRhYMKUwqfDl8Ozw7LDtGVewpPCn8Omwq3Cr8KvwrJsX8KRwqDDosKhw6rDocOqVVxSecOnw5zDrsOQw6nCpcKUUmrCm8KVwqbCm8OuwpzCoFJqwpvDjuWHv+mFoeaQn+WQllzlhpzkvYflkbDCreW/q+iov+i2vua7g+esicKNUsKlwpXCu8Oew61+wpXCqVLCs8KVw57DssOzwq3CpMKmwpHDqcOcw5vDqcOqwqzCqcKUwqPCm8KfwpzCusOfwqZ5wqZSwrPClcOew7LDs8KtwqTCpsKRw6nDnMObw6nDqsKswqnClMKjwpvDsA=="
 		},
 		{
-			"key": "真心影视",
-			"name": "真心｜影视",
-			"type": 3,
-			"api": "csp_WebGZ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "夸克至臻弹幕",
 			"name": "至臻｜4K弹幕",
 			"type": 3,
@@ -2594,7 +2568,7 @@
 		},
 		{
 			"key": "版本信息",
-			"name": "Allinone | 版本",
+			"name": "Allinone｜版本",
 			"type": 3,
 			"api": "csp_Market",
 			"searchable": 0,
@@ -2667,16 +2641,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/cally66影视.js"
-		},
-		{
-			"key": "DFun动漫",
-			"name": "DFun｜动漫",
-			"type": 3,
-			"api": "csp_AppGetApp",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvDosKnwqTCoMKjwrPCosKpw6PDsmFlZsKlw7HDnMKow5zDqcKgX8Kpwp3Cp8Onw7LDrcKcX1LCg8KZw63DmMOPw6vDplVqUlLCpcKVw67DosOqVWpSwovlh77phZvmkJ/lkZzCpuWGn+S9h+WQp2rlv6roqLnotr7mvInnrZPCkFJcUsK6w5jDrcOEw5/CrFJqUsOsw5TCr8Odwq7CpmXCkWbCrcOXwq/DqsOxaWFSXMKbwrTDn8Osw4PCqVJqUsOsw5TCr8Odwq7CpmXCkWbCrcOXwq/DqsOxaWFSwq0="
 		},
 		{
 			"key": "Emby",
