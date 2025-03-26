@@ -1002,15 +1002,6 @@
 			"ext": "./drpy_js/广播迷FM[听].js"
 		},
 		{
-			"key": "韩小圈",
-			"name": "韩小圈｜APP",
-			"type": 3,
-			"api": "csp_HanXiaoQuan",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "hipy_js_好趣网[播]",
 			"name": "好趣网[播](drpy_t3)",
 			"type": 3,
@@ -1155,6 +1146,19 @@
 			"ext": "./drpy_js/极速资源[资].js"
 		},
 		{
+			"key": "急救教学",
+			"name": "急救｜教学",
+			"type": 3,
+			"api": "csp_FirstAid",
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 3.8
+			}
+		},
+		{
 			"key": "hipy_js_荐片[优]",
 			"name": "荐片[优](drpy_t3)",
 			"type": 3,
@@ -1164,6 +1168,19 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/荐片[优].js"
+		},
+		{
+			"key": "荐片",
+			"name": "荐片｜磁力",
+			"type": 3,
+			"api": "csp_Jianpian",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"playerType": 1,
+			"ext": {
+				"danmu": true
+			}
 		},
 		{
 			"key": "hipy_js_饺子影院",
@@ -1673,6 +1690,14 @@
 			"ext": "./drpy_js/七新电影网.js"
 		},
 		{
+			"key": "奇妙",
+			"name": "奇妙｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cDovLzE1NC4xMi45MS4yMTE6NjY4fDEyMzQ1Njc4OUFCQ0RFRkd8MTIzNDU2Nzg5QUJDREVGR3wxMDY="
+		},
+		{
 			"key": "起点",
 			"name": "起点｜APP",
 			"type": 3,
@@ -1993,6 +2018,13 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/网飞猫[优].js"
+		},
+		{
+			"key": "网络直播",
+			"name": "网络｜直播",
+			"type": 3,
+			"api": "csp_Living",
+			"searchable": 1
 		},
 		{
 			"key": "hipy_js_旺旺影视",
@@ -2674,16 +2706,6 @@
 			"ext": "./drpy_js/HDmoli.js"
 		},
 		{
-			"key": "HG影视",
-			"name": "HG影视｜APP",
-			"type": 3,
-			"api": "csp_AppYsV2",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "https://cs.hgyx.vip/api2/api.php/app/"
-		},
-		{
 			"key": "hipy_js_i275听书[听]",
 			"name": "i275听书[听](drpy_t3)",
 			"type": 3,
@@ -2849,6 +2871,35 @@
 		}
 	],
 	"parses": [
+		{
+            "name": "夏夜",
+            "type": "1",
+            "url": "http://8.155.50.80/xiaye.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
 		{
             "name": "臻享",
             "type": "1",
