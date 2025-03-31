@@ -26,7 +26,7 @@ function logError(msg, config_sites) {
 }
 
 async function main() {
-    let js_order = ['配置｜中心', '影视｜配置', '豆瓣｜搜索', '360影视[官]', '菜狗[官]', '奇珍异兽[官]', '优酷[官]', '腾云驾雾[官]', '百忙无果[官]', '哔哩影视[官]', '哔哩教育[官]', '哔哩大全[官]', '直播转点播[合]'];
+    let js_order = ['配置｜中心', '豆瓣｜搜索', '360影视[官]', '菜狗[官]', '奇珍异兽[官]', '优酷[官]', '腾云驾雾[官]', '百忙无果[官]', '哔哩影视[官]', '哔哩教育[官]', '哔哩大全[官]', '直播转点播[合]'];
     let js_path = './drpy_js';
     let live_path = './lives';
     let config_path = './custom.json';
@@ -181,18 +181,18 @@ async function main() {
         let extras = [''];
         if (rname.includes('我的哔哩[官]')) {
             extras = [
-                '?type=url&params=../json/哔哩教育.json@哔哩教育[官]',
-                '?type=url&params=../json/哔哩大全.json@哔哩大全[官]',
+                '?type=url&params=../drpy_json/哔哩教育.json@哔哩教育[官]',
+                '?type=url&params=../drpy_json/哔哩大全.json@哔哩大全[官]',
             ];
         } else if (rname.includes('采集之王')) {
             extras = [
-                '?type=url&params=../json/采集静态.json$1@常规采王[合]',
-                '?type=url&params=../json/采集[zy]静态.json$1@zy采王[合]',
-                '?type=url&params=../json/采集[密]静态.json@18采王[密]',
+                '?type=url&params=../drpy_json/采集静态.json$1@常规采王[合]',
+                '?type=url&params=../drpy_json/采集[zy]静态.json$1@zy采王[合]',
+                '?type=url&params=../drpy_json/采集[密]静态.json@18采王[密]',
             ];
         } else if (rname.includes('直播转点播')) {
             extras = [
-                '?type=url&params=../json/live2cms.json',
+                '?type=url&params=../drpy_json/live2cms.json',
             ];
         } else if (rname.includes('APPV2')) {
             extras = appv2_sites.map(s => `?type=url&params=${s}`);
