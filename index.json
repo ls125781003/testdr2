@@ -2577,16 +2577,6 @@
 			"ext": "./json/alist.json"
 		},
 		{
-			"key": "版本信息",
-			"name": "Allinone｜版本",
-			"type": 3,
-			"api": "csp_Market",
-			"searchable": 0,
-			"changeable": 0,
-			"indexs": 0,
-			"ext": "https://d.kstore.dev/download/13091/market.json"
-		},
-		{
 			"key": "hipy_js_auete",
 			"name": "auete(drpy_t3)",
 			"type": 3,
