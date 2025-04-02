@@ -800,6 +800,14 @@
 			"ext": "./drpy_js/第一韩漫[画].js"
 		},
 		{
+			"key": "电影",
+			"name": "电影｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cHM6Ly9jOHcyb3Y3dTV3ZzJ6MW84cDIxYy5hbGl5dW5jcy5jbGljazoyNzg5OXxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
+		},
+		{
 			"key": "hipy_js_电影狗",
 			"name": "电影狗(drpy_t3)",
 			"type": 3,
@@ -979,13 +987,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/非凡资源[资].js"
-		},
-		{
-			"key": "菲儿影视",
-			"name": "菲菲｜影视",
-			"type": 3,
-			"api": "csp_AppFerr",
-			"ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
 		},
 		{
 			"key": "格格",
@@ -1200,14 +1201,6 @@
 			"ext": "./drpy_js/花子动漫[漫].js"
 		},
 		{
-			"key": "火火影视",
-			"name": "火火｜影视",
-			"type": 3,
-			"api": "csp_SaoHuo",
-			"playerType": 2,
-			"ext": "https://shdy5.us"
-		},
-		{
 			"key": "hipy_js_极速资源[资]",
 			"name": "极速资源[资](drpy_t3)",
 			"type": 3,
@@ -1236,13 +1229,6 @@
 			"type": 3,
 			"playerType": 1,
 			"ext": "http://api2.rinhome.com"
-		},
-		{
-			"key": "饺子影视",
-			"name": "饺子｜影视",
-			"type": 3,
-			"api": "csp_Jiaozi",
-			"playerType": 2
 		},
 		{
 			"key": "hipy_js_饺子影院",
@@ -1507,7 +1493,7 @@
 			"type": 3,
 			"api": "csp_Xdai",
 			"playerType": 1,
-			"ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8NDk0ODA4MDgwbGdneXNjb3w0OTQ4MDgwODBsZ2d5c2NvfDY2Ng=="
+			"ext": "jaHR0cDovLzU5LjE1My4xNjcuMTg2OjEwMDk5fFBNS2Faa0F2NFFwNTNFV258UE1LYVprQXY0UXA1M0VXbnw0MjU="
 		},
 		{
 			"key": "hipy_js_两个BT",
@@ -1789,12 +1775,6 @@
 			"ext": "jaHR0cDovLzE1NC4xMi45MS4yMTE6NjY4fDEyMzQ1Njc4OUFCQ0RFRkd8MTIzNDU2Nzg5QUJDREVGR3wxMDY="
 		},
 		{
-			"key": "奇优影视",
-			"name": "奇优｜影视",
-			"type": 3,
-			"api": "csp_Qiyou"
-		},
-		{
 			"key": "起点",
 			"name": "起点｜APP",
 			"type": 3,
@@ -1899,6 +1879,12 @@
 			"ext": "./drpy_js/三集电影[自动].js"
 		},
 		{
+			"key": "三六零",
+			"name": "三六零｜视频",
+			"type": 3,
+			"api": "csp_SP360"
+		},
+		{
 			"key": "闪电",
 			"name": "闪电｜4K弹幕",
 			"type": 3,
@@ -1948,7 +1934,7 @@
 			"type": 3,
 			"api": "csp_Xdai",
 			"playerType": 1,
-			"ext": "jaHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMnwxMzQ="
+			"ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8YXNnY3hoamt0czEyNDU3M3xhc2djeGhqa3RzMTI0NTczfDEwMQ=="
 		},
 		{
 			"key": "hipy_js_时光影院",
@@ -1982,12 +1968,6 @@
 			"ext": "./drpy_js/首发网.js"
 		},
 		{
-			"key": "私人影视",
-			"name": "私人｜影视",
-			"type": 3,
-			"api": "csp_Siren"
-		},
-		{
 			"key": "搜索弹幕",
 			"name": "搜索｜弹幕",
 			"type": 3,
@@ -1999,6 +1979,14 @@
 				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
 				"danmu": true
 			}
+		},
+		{
+			"key": "淘气",
+			"name": "淘气｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 1,
+			"ext": "jaHR0cHM6Ly9za2FwLm9zcy1jbi1oYW5nemhvdS5hbGl5dW5jcy5jb20vZ2V0LnR4dHw0OTkwNDg4MjQ4OTA0ODg0fDQ5OTA0ODgyNDg5MDQ4ODR8MTA3"
 		},
 		{
 			"key": "hipy_js_天龙影院",
@@ -2237,7 +2225,7 @@
 			"type": 3,
 			"api": "csp_Xdai",
 			"playerType": 1,
-			"ext": "caHR0cHM6Ly94ZHlzLnZpcC9nZXRhcHAudHh0fHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYnwxMTQ="
+			"ext": "caHR0cHM6Ly9jbXMud2xiYnEueHl6fHNkZXYxNXJ3c2E5NmZzZGV8c2RldjE1cndzYTk2ZnNkZXwzMDA="
 		},
 		{
 			"key": "hipy_js_小白菜电影",
@@ -2324,7 +2312,7 @@
 			"type": 3,
 			"api": "csp_Muou",
 			"playerType": 2,
-			"ext": "caHR0cDovL2EubXVxaXhoLnRvcDo1NjIzfOW5leWQr+aYn+ays3w0LjEuOA=="
+			"ext": "caHR0cDovL3Rlbmd4dW55dW5hbGl5dW4ub3NzLWNuLXNoYW5naGFpLmFsaXl1bmNzLmNvbS90ZW5neHVueXVuLnR4dHxmNWUydHg1M3lrcDZzMmM5fGY1ZTJ0eDUzeWtwNnMyYzl8MzYx"
 		},
 		{
 			"key": "hipy_js_星空影院",
@@ -2503,7 +2491,7 @@
 			"type": 3,
 			"api": "csp_Muou",
 			"playerType": 2,
-			"ext": "caHR0cDovLzExMC40MC42NC4yMjU6ODk0NXxHOGt6QjF2WHdRcDlaN21GfEc4a3pCMXZYd1FwOVo3bUZ8MTAw"
+			"ext": "caHR0cHM6Ly9yeHlzeXlkcy5vc3MtY24tY2hlbmdkdS5hbGl5dW5jcy5jb20vZ2V0YXBwLnR4dHxlYmFkM2YxYTU4YjEzOTMzfGViYWQzZjFhNThiMTM5MzN8MTAw"
 		},
 		{
 			"key": "优秀",
@@ -2519,7 +2507,7 @@
 			"type": 3,
 			"api": "csp_Xdai",
 			"playerType": 1,
-			"ext": "jaHR0cHM6Ly9keXl6dHZhcHBhcGlnb29kZ3guNjguZ3k6MTI2ODkvY2l3azI4dnUzOGlvOC9hcGl1cmwudHh0fGR5eXp0dmFwaWFwcHl5ZHN8ZHl5enR2YXBpYXBweXlkc3wxMDA="
+			"ext": "jaHR0cHM6Ly9sYnlzYXBpZHR5bWd4LjY4Lmd5OjE2Nzg5L2xieXNhcGlkdHltL2FwcC50eHR8YXBpYXBwbGJ5c2tleTE2OHxhcGlhcHBsYnlza2V5MTY4fDEwNw=="
 		},
 		{
 			"key": "悠悠",
@@ -2585,12 +2573,6 @@
 			"api": "csp_Xdai",
 			"playerType": 1,
 			"ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg=="
-		},
-		{
-			"key": "云播影视",
-			"name": "云播｜影视",
-			"type": 3,
-			"api": "csp_Tvyb"
 		},
 		{
 			"key": "hipy_js_云电影网",
@@ -2668,6 +2650,14 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/种子音乐[听].js"
+		},
+		{
+			"key": "主角",
+			"name": "主角｜APP",
+			"type": 3,
+			"api": "csp_Xdai",
+			"playerType": 2,
+			"ext": "caHR0cHM6Ly9kdHltLnpqeXkuY2MvZ2ctZ2V0YXBwL2dldC1nZy50eHR8UE1LYVprQXY0UXA1M0VXbnxQTUthWmtBdjRRcDUzRVdufDQyNQ=="
 		},
 		{
 			"key": "AList",
