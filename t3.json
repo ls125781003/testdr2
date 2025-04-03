@@ -362,15 +362,6 @@
 			"ext": "./drpy_js/926tv[球].js"
 		},
 		{
-			"key": "1905",
-			"name": "1905｜影视",
-			"type": 3,
-			"api": "csp_Web1905",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0
-		},
-		{
 			"key": "阿里云盘",
 			"name": "阿里｜云盘",
 			"type": 3,
@@ -675,6 +666,15 @@
 			"ext": "./drpy_js/畅梦影视[优].js"
 		},
 		{
+			"key": "尘落影视",
+			"name": "尘落｜影视",
+			"type": 3,
+			"api": "csp_Wetv",
+			"searchable": 1,
+			"quickSearch": 1,
+			"ext": "https://v.wetv.wang"
+		},
+		{
 			"key": "hipy_js_臭蛋蛋",
 			"name": "臭蛋蛋(drpy_t3)",
 			"type": 3,
@@ -772,6 +772,15 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/低端.js"
+		},
+		{
+			"key": "低端影视",
+			"name": "低端｜影视",
+			"type": 3,
+			"api": "csp_Ddys",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
 		},
 		{
 			"key": "hipy_js_嘀哩嘀哩",
@@ -884,6 +893,16 @@
 			"ext": "./drpy_js/豆瓣[官].js"
 		},
 		{
+			"key": "短剧合集",
+			"name": "短剧｜合集",
+			"type": 3,
+			"api": "./js/quark.min.js",
+			"ext": "./js/短剧合集.js",
+			"style": {
+				"type": "list"
+			}
+		},
+		{
 			"key": "多多",
 			"name": "多多｜4K弹幕",
 			"type": 3,
@@ -926,6 +945,15 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/番茄小说[书].js"
+		},
+		{
+			"key": "饭团影视",
+			"name": "饭团｜影视",
+			"type": 3,
+			"api": "csp_Fantuan",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
 		},
 		{
 			"key": "hipy_js_飞鱼影视",
@@ -1312,6 +1340,32 @@
 			"ext": "./json/quarkShare.json"
 		},
 		{
+			"key": "夸克短剧弹幕",
+			"name": "夸克短剧｜弹幕",
+			"type": 3,
+			"api": "csp_Qkdj",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 0,
+			"ext": {
+				"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+				"danmu": true
+			}
+		},
+		{
+			"key": "夸搜弹幕",
+			"name": "夸搜｜弹幕",
+			"type": 3,
+			"api": "csp_Qkso",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 0,
+			"ext": {
+				"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+				"danmu": true
+			}
+		},
+		{
 			"key": "快看影视",
 			"name": "快看｜影视",
 			"type": 3,
@@ -1341,6 +1395,15 @@
 			"filterable": 1,
 			"changeable": 1,
 			"ext": "./json/lb.json?"
+		},
+		{
+			"key": "来看影视",
+			"name": "来看｜影视",
+			"type": 3,
+			"api": "csp_Lkdy",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
 		},
 		{
 			"key": "hipy_js_来看点播[自动]",
@@ -1571,15 +1634,6 @@
 			"ext": "./json/og.json?"
 		},
 		{
-			"key": "苹果影视",
-			"name": "苹果｜影视",
-			"type": 3,
-			"api": "csp_LiteApple",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "hipy_js_七色番[漫]",
 			"name": "七色番[漫](drpy_t3)",
 			"type": 3,
@@ -1625,6 +1679,20 @@
 				"ratio": 1.433
 			},
 			"ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKhwqXDqcOUw6jDrMOiwphewpPCn8OmwprCpsKZwqHCp8KZwqBXwrPCk8Khw5Tlh7/phJvmj5XlkJNc5Yel5L6K5ZGxwrPlv6vop7notbTmu4DnrInDlsKawqbCmcKhwpfClcKTwqLDssOjw67DhMOfwqxXalDCoMOqw6/DssOjaWZmV8O2"
+		},
+		{
+			"key": "夸克趣盘搜弹幕",
+			"name": "趣盘搜｜弹幕",
+			"type": 3,
+			"api": "csp_QuPanSou",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+				"danmu": true
+			}
 		},
 		{
 			"key": "热播影视",
@@ -1742,6 +1810,19 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/首发网.js"
+		},
+		{
+			"key": "搜索弹幕",
+			"name": "搜索｜弹幕",
+			"type": 3,
+			"api": "csp_PanSearch",
+			"searchable": 1,
+			"filterable": 0,
+			"changeable": 1,
+			"ext": {
+				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+				"danmu": true
+			}
 		},
 		{
 			"key": "hipy_js_天龙影院",
@@ -1950,6 +2031,19 @@
 			"ext": "./drpy_js/小女18[密].js"
 		},
 		{
+			"key": "小纸条弹幕",
+			"name": "小纸条｜弹幕",
+			"type": 3,
+			"api": "csp_XiaoZhiTiao",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 0,
+			"ext": {
+				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+				"danmu": true
+			}
+		},
+		{
 			"key": "hipy_js_新茶杯狐",
 			"name": "新茶杯狐(drpy_t3)",
 			"type": 3,
@@ -2087,6 +2181,20 @@
 			"ext": "./drpy_js/易搜[搜].js"
 		},
 		{
+			"key": "易搜弹幕",
+			"name": "易搜｜弹幕",
+			"type": 3,
+			"api": "csp_YiSo",
+			"searchable": 1,
+			"filterable": 0,
+			"changeable": 1,
+			"ext": {
+				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+				"danmu": true,
+				"cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"
+			}
+		},
+		{
 			"key": "hipy_js_影视看吧",
 			"name": "影视看吧(drpy_t3)",
 			"type": 3,
@@ -2164,6 +2272,20 @@
 			"ext": "./drpy_js/云电影网.js"
 		},
 		{
+			"key": "云盘弹幕",
+			"name": "云盘｜弹幕",
+			"type": 3,
+			"api": "csp_Yunpan4k",
+			"searchable": 1,
+			"filterable": 0,
+			"changeable": 1,
+			"ext": {
+				"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+				"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+				"danmu": true
+			}
+		},
+		{
 			"key": "hipy_js_在线之家",
 			"name": "在线之家(drpy_t3)",
 			"type": 3,
@@ -2173,6 +2295,15 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/在线之家.js"
+		},
+		{
+			"key": "真心影视",
+			"name": "真心｜影视",
+			"type": 3,
+			"api": "csp_WebGZ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
 		},
 		{
 			"key": "至臻",
@@ -2206,6 +2337,19 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/种子音乐[听].js"
+		},
+		{
+			"key": "AList",
+			"name": "AList｜合集",
+			"type": 3,
+			"api": "csp_Alist",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 0,
+			"style": {
+				"type": "list"
+			},
+			"ext": "./json/alist.json"
 		},
 		{
 			"key": "hipy_js_auete",
