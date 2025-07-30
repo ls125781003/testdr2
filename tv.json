@@ -647,19 +647,6 @@
 			"ext": "./drpy_js/可可影视[优].js"
 		},
 		{
-			"key": "抠搜",
-			"name": "抠抠┃搜搜",
-			"type": 3,
-			"api": "csp_KkSsGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
 			"key": "hipy_js_酷我听书[听]",
 			"name": "酷我听书[听](drpy_t3)",
 			"type": 3,
@@ -669,20 +656,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/酷我听书[听].js"
-		},
-		{
-			"key": "夸搜",
-			"name": "夸搜┃夸父",
-			"type": 3,
-			"api": "csp_PanSearchGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"pan": "quark",
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
 		},
 		{
 			"key": "hipy_js_来看点播[自动]",
@@ -705,20 +678,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/老王电影[自动].js"
-		},
-		{
-			"key": "Lib",
-			"name": "立播┃秒播",
-			"type": 3,
-			"api": "csp_LibvioGuard",
-			"timeout": 10,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
 		},
 		{
 			"key": "hipy_js_两个BT",
@@ -754,19 +713,6 @@
 			"ext": "./drpy_js/路漫漫[漫].js"
 		},
 		{
-			"key": "米搜",
-			"name": "米搜┃夸父",
-			"type": 3,
-			"api": "csp_MIPanSoGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
 			"key": "hipy_js_农民影视gz",
 			"name": "农民影视gz(drpy_t3)",
 			"type": 3,
@@ -789,45 +735,6 @@
 			"ext": "./drpy_js/努努影院1.js"
 		},
 		{
-			"key": "Aliso",
-			"name": "盘搜┃阿狸",
-			"type": 3,
-			"api": "csp_PanSearchGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "xzso",
-			"name": "盘它┃三盘",
-			"type": 3,
-			"api": "csp_XzsoGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "YpanSo",
-			"name": "盘她┃三盘",
-			"type": 3,
-			"api": "csp_YpanSoGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
 			"key": "hipy_js_清风DJ[听]",
 			"name": "清风DJ[听](drpy_t3)",
 			"type": 3,
@@ -837,18 +744,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/清风DJ[听].js"
-		},
-		{
-			"key": "push_agent",
-			"name": "手机┃推送",
-			"type": 3,
-			"api": "csp_PushGuard",
-			"searchable": 0,
-			"quickSearch": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
 		},
 		{
 			"key": "hipy_js_童趣[儿]",
@@ -1005,32 +900,6 @@
 			"ext": "./drpy_js/一曲肝肠断.js"
 		},
 		{
-			"key": "YiSo",
-			"name": "易搜┃阿狸",
-			"type": 3,
-			"api": "csp_YiSoGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "UC",
-			"name": "优汐┃搜搜",
-			"type": 3,
-			"api": "csp_UuSsGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
 			"key": "hipy_js_有声听书网[听]",
 			"name": "有声听书网[听](drpy_t3)",
 			"type": 3,
@@ -1062,17 +931,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/种子音乐[听].js"
-		},
-		{
-			"key": "hipy_js_AppGet模板",
-			"name": "AppGet模板(drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/AppGet模板.js"
 		},
 		{
 			"key": "hipy_js_bilfun(自动)",
@@ -1128,7 +986,138 @@
 			"filterable": 1,
 			"order_num": 1,
 			"ext": "./drpy_js/采集之王[合].js?type=url&params=../drpy_json/采集[zy]静态.json$1"
-		}
+		},
+		{
+            "key": "Lib",
+            "name": "🌟立播┃秒播",
+            "type": 3,
+            "api": "csp_LibvioGuard",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "抠搜",
+            "name": "🍄抠抠┃搜搜",
+            "type": 3,
+            "api": "csp_KkSsGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "UC",
+            "name": "🌈优汐┃搜搜",
+            "type": 3,
+            "api": "csp_UuSsGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "YpanSo",
+            "name": "🐟盘她┃三盘",
+            "type": 3,
+            "api": "csp_YpanSoGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "xzso",
+            "name": "👻盘它┃三盘",
+            "type": 3,
+            "api": "csp_XzsoGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "米搜",
+            "name": "🦋米搜┃夸父",
+            "type": 3,
+            "api": "csp_MIPanSoGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "夸搜",
+            "name": "😻夸搜┃夸父",
+            "type": 3,
+            "api": "csp_PanSearchGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "pan": "quark",
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "Aliso",
+            "name": "🙀盘搜┃阿狸",
+            "type": 3,
+            "api": "csp_PanSearchGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "YiSo",
+            "name": "😹易搜┃阿狸",
+            "type": 3,
+            "api": "csp_YiSoGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🛴手机┃推送",
+            "type": 3,
+            "api": "csp_PushGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "ext": {
+                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        }
 	],
 	"parses": [
         {
