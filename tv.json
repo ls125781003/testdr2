@@ -1344,21 +1344,6 @@
     ],
     "lives": [
         {
-            "name": "AI直播",
-            "type": 0,
-            "url": "https://github.3x25.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "playerType": 1,
-            "timeout": 10
-        },
-        {
-            "name": "Guovin",
-            "type": 0,
-            "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "timeout": 10
-        },
-        {
             "name": "牛播一（仅新版影视仓┃ok影视）",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
@@ -1386,6 +1371,41 @@
             "url": "https://tv.iill.top/m3u/Live",
             "playerType": 2,
             "timeout": 10
+        },
+        {
+            "name": "mursor-iptv",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/iptv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okHttp/Mod-1.2.0.1"
+        },
+        {
+            "name": "mursor-huya",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okHttp/Mod-1.2.0.1"
+        },
+        {
+            "name": "mursor-douyu",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okHttp/Mod-1.2.0.1"
+        },
+        {
+            "name": "mursor-yylunbo",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okHttp/Mod-1.2.0.1"
+        },
+        {
+            "name": "mursor-bililive",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/bililive.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "ua": "okHttp/Mod-1.2.0.1"
         },
         {
             "name": "ITV",
