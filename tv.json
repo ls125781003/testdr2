@@ -15,7 +15,7 @@
 			"changeable": 0
 		},
 		{
-            "key": "Drive",
+            "key": "MDrive",
             "name": "🗂我的云盘┃我配置",
             "type": 3,
             "api": "csp_MyDriveGuard",
@@ -174,7 +174,18 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZ0NTh0TYsL4PsF1wEM1kc4mV87b9fc/FN//x7jUuaRvFX81tz8A=="
+            "ext": "rfOX1voDIQhH8epBwpmIsuStr2HSytK11WwwcM/+XB8SbkBB4XYk/L52LroCiYRhoDrRLJ4ZkCh5q2RxCb5yUs6B5aCQVGSkR6zDgKLrFSDulg=="
+        },
+        {
+            "key": "猫猫",
+            "name": "🐟猫猫┃多线",
+            "type": 3,
+            "api": "csp_AppSxGuard",
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "rfOX1voDIQhH8epBwtCFsub0/WmdmYi/k2NkJsm7Vk4dJQZft2UtrrwhKK52i/dDilKkU5Nz+V0bwkYsVuU="
         },
         {
             "key": "鲸鱼",
@@ -363,8 +374,7 @@
                 "type": "rect",
                 "ratio": 3.8
             }
-        },
-        {
+        },{
             "key": "抠搜",
             "name": "🍄抠抠┃搜搜",
             "type": 3,
@@ -550,15 +560,6 @@
             "ext": {
                 "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
             }
-        },
-        {
-            "key": "cc",
-            "name": "请勿相信视频中广告",
-            "type": 3,
-            "api": "csp_XPathGuard",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
         },
 		{
 			"key": "hipy_js_360影视[官]",
