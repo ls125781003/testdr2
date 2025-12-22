@@ -77,6 +77,22 @@
             }
         },
         {
+            "key": "ZPan",
+            "name": "🎈聚盘搜┃三盘",
+            "type": 3,
+            "api": "csp_S_zpsGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "siteUrl": "https://api.jkai.de/"
+            },
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "立播",
             "name": "🌟立播┃秒播",
             "type": 3,
@@ -418,19 +434,6 @@
             "name": "🦋米搜┃优夸",
             "type": 3,
             "api": "csp_MIPanSoGuard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "xzso",
-            "name": "👻盘他┃夸父",
-            "type": 3,
-            "api": "csp_XzsoGuard",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
